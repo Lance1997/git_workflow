@@ -25,4 +25,4 @@ Hotfix is the scenario where a bug needs to be fixed in the master branch as soo
 
 - Create a hotfix branch from the master branch with name "hotfix-<id or description>
 - Make changes to hotfix branch and merge to master and to the develop branch to allow fix to be in the develop branch too
-- You can then delete the hotfix branch if successful
+- You can then delete the hotfix branch if successful with hotfix.
