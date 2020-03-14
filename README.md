@@ -18,3 +18,4 @@ A sample repo to mimic a proper git workflow
 - use release branch if you have versions of the software that is going to be committed to allow tracking by release or version of the software
 - make necessary feature changes, commit changes and run command "git checkout dev" to move to the dev branch and run command "git merge feature-<'id or description'>
 - run command "git branch -d feature-<'id or description'>" to remove branch after successfully merging unless it might be needed again
+- After successful changes merge develop or dev branch into the master branch for production
