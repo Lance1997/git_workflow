@@ -14,8 +14,15 @@ A sample repo to mimic a proper git workflow
 
 ## Create supporting branches
 - Create support branches for new features, releases
-- "feature-<'id or description'>" branch which is going to be used to add new features
+- "feature-<id or description>" branch which is going to be used to add new features
 - use release branch if you have versions of the software that is going to be committed to allow tracking by release or version of the software
-- make necessary feature changes, commit changes and run command "git checkout dev" to move to the dev branch and run command "git merge feature-<'id or description'>
-- run command "git branch -d feature-<'id or description'>" to remove branch after successfully merging unless it might be needed again
+- make necessary feature changes, commit changes and run command "git checkout dev" to move to the dev branch and run command "git merge feature-<id or description>
+- run command "git branch -d feature-<id or description>" to remove branch after successfully merging unless it might be needed again
 - After successful changes merge develop or dev branch into the master branch for production
+
+## Making Hot fixes
+Hotfix is the scenario where a bug needs to be fixed in the master branch as soon as possible and one cannot use the dev branch because changes has already been made to it that is not in production.
+
+- Create a hotfix branch from the master branch with name "hotfix-<id or description>
+- Make changes to hotfix branch and push to master
+- You can then delete the hotfix branch if successful
