@@ -13,5 +13,6 @@ A sample repo to mimic a proper git workflow
 - run command "git push -u origin dev" to create and switch branch for pushing commits("git push") to the dev branch
 
 ## Create supporting branches
+- Create support branches for new features, releases
 - "feature-<'id or description'>" branch which is going to be used to add new features
-- 
+- make necessary feature changes, commit changes and run command "git checkout dev" to move to the dev branch and run command "git merge feature-<'id or description'>
