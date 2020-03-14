@@ -24,5 +24,5 @@ A sample repo to mimic a proper git workflow
 Hotfix is the scenario where a bug needs to be fixed in the master branch as soon as possible and one cannot use the dev branch because changes has already been made to it that is not in production.
 
 - Create a hotfix branch from the master branch with name "hotfix-<id or description>
-- Make changes to hotfix branch and push to master
+- Make changes to hotfix branch and merge to master and to the develop branch to allow fix to be in the develop branch too
 - You can then delete the hotfix branch if successful
